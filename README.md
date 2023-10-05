@@ -169,9 +169,12 @@
 
 </br>
     
-### 프로젝트 설계
+### 프로젝트 설계  
+
+  
 
 - [프로젝트 계획 및 설계](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design)
+   
   
 - [API 명세서](https://github.com/challenge-first/About/wiki#3-api) 
 
