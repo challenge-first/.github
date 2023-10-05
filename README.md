@@ -50,51 +50,54 @@
 
 | 이름 | 담당 역할 |
 | --- | --- |
-| 김동현(팀장) | - 상품 도메인 개발 
-|             | - 상품 검색, 조회, 필터, 페이징 성능 개선
-|             | - 상품 서버 구현 / CI/CD 배포 환경 구성
-|             | - 모놀리스 초기 디렉토리 구조 설정
-|             | - 모놀리스에서 상품 검색 및 조회 기능 구현
-|             | - Junit, Mockito를 활용한 테스트 구현
-|             | - 상품 도메인 조회 검색, 필터 기능 구현
-|             | - 상품 데이터 수집
-|             | - Front-End MVP 구현
-|             | - Front-End 상품 검색, 조회 구현 |
-| 신윤상 | - 상품 데이터 수집
-- 모놀리스에서 회원 기능 구현
-- 모놀리스에서 Junit, Mockito를 활용한 Test 코드 작성
-- 초기 MSA 구조 설계
-- APIGatewayServer 구현
-- 이벤트 도메인 설계
-- Redis 및 Kafka 사용하여 이벤트 대기열 서버 및 스케줄러 서버 구현
-- 이벤트 쿠폰 발급 서버 구현
-- 회원 서버 구현 / CI/CD 배포 환경 구성
-- Jmeter nGrinder를 사용한 테스트 |  |
-| 김광일 | - 상품 데이터 수집
-- 모놀리스에서 경매 조회 기능 구현
-- 모놀리스에서 주문 결제 기능 구현
-- 모놀리스에서 Junit, Mockito를 활용한 Test 코드 작성
-- Jmeter, nGrinder를 활용한 동시성 테스트 / 테스트 모니터링
-- Prometheus, Grafana 모니터링 서버 구현
-- 결제 서버 구현 / CI/CD 배포 환경 구성
-- 이벤트 도메인 설계
-- 이벤트 쿠폰 발급 서버 구현
-- Redisson 분산 락 사용하여, 이벤트 대기열 서버 구현
-- Docker-compose 활용 Kafka 서버 구축
-- 로그인, 포인트 조회, 포인트 충전, 결제 Front-End 구현 |  |
+| 김동현(팀장) |  상품 도메인 개발 
+|             |  상품 검색, 조회, 필터, 페이징 성능 개선
+|             |  상품 서버 구현 / CI/CD 배포 환경 구성
+|             |  모놀리스 초기 디렉토리 구조 설정
+|             |  모놀리스에서 상품 검색 및 조회 기능 구현
+|             |  Junit, Mockito를 활용한 테스트 구현
+|             |  상품 도메인 조회 검색, 필터 기능 구현
+|             |  상품 데이터 수집
+|             |  Front-End MVP 구현
+|             |  Front-End 상품 검색, 조회 구현 |
+|             |             |   
+| 신윤상 |  상품 데이터 수집
+|             |  모놀리스에서 회원 기능 구현
+|             |  모놀리스에서 Junit, Mockito를 활용한 Test 코드 작성
+|             |  초기 MSA 구조 설계
+|             |  APIGatewayServer 구현
+|             |  이벤트 도메인 설계
+|             |  Redis 및 Kafka 사용하여 이벤트 대기열 서버 및 스케줄러 서버 구현
+|             |  이벤트 쿠폰 발급 서버 구현
+|             |  회원 서버 구현 / CI/CD 배포 환경 구성
+|             |  Jmeter nGrinder를 사용한 테스트 |
+|             |             |   
+| 김광일 |  상품 데이터 수집
+|             |   모놀리스에서 경매 조회 기능 구현
+|             |  모놀리스에서 주문 결제 기능 구현
+|             |  모놀리스에서 Junit, Mockito를 활용한 Test 코드 작성
+|             |  Jmeter, nGrinder를 활용한 동시성 테스트 / 테스트 모니터링
+|             |  Prometheus, Grafana 모니터링 서버 구현
+|             |  결제 서버 구현 / CI/CD 배포 환경 구성
+|             |  이벤트 도메인 설계
+|             |  이벤트 쿠폰 발급 서버 구현
+|             |  Redisson 분산 락 사용하여, 이벤트 대기열 서버 구현
+|             |  Docker-compose 활용 Kafka 서버 구축
+|             |  로그인, 포인트 조회, 포인트 충전, 결제 Front-End 구현 |
+|             |             |              
 | 유시환 | - 상품 데이터 수집
-- 모놀리스에서 로깅, Dto, 경매 입찰 기능 구현
-- 모놀리스에서 Junit, Mockito를 활용한 Test 코드 작성
-- Jmeter를 활용한 동시성 테스트
-- 경매 도메인 조회/입찰/낙찰 기능 구현
-- 스프링 AOP를 활용한 로깅 구현
-- Zipkin, Micrometer를 활용한 분산추적 기능 구현 및 배포
-- Resilience4j를 활용한 CircuitBreaker 패턴 구현
-- 소프트웨어 아키텍처 변경
-- 경매, 상품의 카프카 메세지 Producer, Consumer 구현
-- 상품 상세 조회 Front-End 구현
-- 경매 조회/낙찰 Front-End 구현 
-- Readme, Wiki 작성 |  |
+|             |  모놀리스에서 로깅, Dto, 경매 입찰 기능 구현
+|             |  모놀리스에서 Junit, Mockito를 활용한 Test 코드 작성
+|             |  Jmeter를 활용한 동시성 테스트
+|             |  경매 도메인 조회/입찰/낙찰 기능 구현
+|             |  스프링 AOP를 활용한 로깅 구현
+|             |  Zipkin, Micrometer를 활용한 분산추적 기능 구현 및 배포
+|             |  Resilience4j를 활용한 CircuitBreaker 패턴 구현
+|             |  소프트웨어 아키텍처 변경
+|             |  경매, 상품의 카프카 메세지 Producer, Consumer 구현
+|             |  상품 상세 조회 Front-End 구현
+|             |  경매 조회/낙찰 Front-End 구현 
+|             |  Readme, Wiki 작성 |
 
 </details>
 
