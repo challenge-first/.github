@@ -158,7 +158,7 @@
 - [선착순 이벤트, 데이터 검색 및 조회 성능개선](https://github.com/challenge-first/About/wiki/Project-%7C-Result-2-%E2%80%90--Improvements)
 
    
-- [아키텍처 변화](https://github.com/challenge-first/About/wiki/Project-%7C-Result-1-%E2%80%90-Architecture)
+- [아키텍처 전환](https://github.com/challenge-first/About/wiki/Project-%7C-Result-1-%E2%80%90-Architecture)
 
 * * *  
 
@@ -168,7 +168,7 @@
 | 이름 | 담당 역할 | 
 | --- | --- |
 | 김동현(팀장) |  상품 도메인 개발 
-|             |  상품 검색, 조회, 필터, 페이징 성능 개선
+| https://github.com/princeton-d |  상품 검색, 조회, 필터, 페이징 성능 개선
 |             |  상품 서버 구현 / CI/CD 배포 환경 구성
 |             |  모놀리스 초기 디렉토리 구조 설정
 |             |  모놀리스에서 상품 검색 및 조회 기능 구현
@@ -179,7 +179,7 @@
 |             |  Front-End 상품 검색, 조회 구현 |  
 |-|-|
 | 신윤상 |  상품 데이터 수집
-|             |  모놀리스에서 회원 기능 구현
+| https://github.com/Dsys1129 |  모놀리스에서 회원 기능 구현
 |             |  모놀리스에서 Junit, Mockito를 활용한 Test 코드 작성
 |             |  초기 MSA 구조 설계
 |             |  APIGatewayServer 구현
@@ -190,7 +190,7 @@
 |             |  Jmeter nGrinder를 사용한 테스트 |  
 |-|-|
 | 김광일 |  상품 데이터 수집
-|             |   모놀리스에서 경매 조회 기능 구현
+| https://github.com/kki4504 |   모놀리스에서 경매 조회 기능 구현
 |             |  모놀리스에서 주문 결제 기능 구현
 |             |  모놀리스에서 Junit, Mockito를 활용한 Test 코드 작성
 |             |  Jmeter, nGrinder를 활용한 동시성 테스트 / 테스트 모니터링
@@ -203,7 +203,7 @@
 |             |  로그인, 포인트 조회, 포인트 충전, 결제 Front-End 구현 |  
 |-|-|           
 | 유시환 |  상품 데이터 수집
-|             |  모놀리스에서 로깅, Dto, 경매 입찰 기능 구현
+| https://github.com/Goonerd17 |  모놀리스에서 로깅, Dto, 경매 입찰 기능 구현
 |             |  모놀리스에서 Junit, Mockito를 활용한 Test 코드 작성
 |             |  전반적인 MSA 및 도메인 주도 설계 수립
 |             |  Jmeter를 활용한 동시성 테스트
