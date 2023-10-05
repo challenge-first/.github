@@ -27,16 +27,18 @@
 
 [트러블슈팅](#5-트러블-슈팅)  
 
-[프로젝트 결과](#6-프로젝트-결과과)  
+[프로젝트 결과](#6-프로젝트-결과)  
 
 * * *  
 
-### 1. 프로젝트 개요
+## 1. 프로젝트 개요
 
 - 팀원 : 김동현, 신윤상, 김광일, 유시환
 - 기간 : 2022년 07월 30일 ~ 09월 07일, 6주 간 진행
 
-### 2. 프로젝트 소개
+* * *  
+
+## 2. 프로젝트 소개
 
 
 <details>
@@ -126,11 +128,15 @@
   <img src='./src/main/resources/images/GGcreatecomment.png' width="70%">  
   
   - 댓글 작성,수정,삭제  
-</details>  
-  
-- [API 명세서](https://github.com/challenge-first/About/wiki#3-api)
+</details>   
+
+* * *  
+
+## 3. 프로젝트 소개
   
 - [프로젝트 계획 수립 및 설계](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design)
+  
+- [API 명세서](https://github.com/challenge-first/About/wiki#3-api) 
 
 * * *  
   
@@ -140,7 +146,7 @@
 
 * * *  
 
-### 4 서비스 아키텍처 및 기술적 의사결정  
+## 4. 서비스 아키텍처 및 기술적 의사결정  
 
 ![image](https://github.com/challenge-first/About/assets/134407121/f32017ad-edd1-44d5-a05a-518aede2c933) 
 
@@ -149,7 +155,7 @@
 
 * * *  
 
-### 5. 트러블 슈팅
+## 5. 트러블 슈팅
 
 - [트러블 슈팅 1 - MSA 설계 및 적용](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#1-msa-%EC%84%A4%EA%B3%84-%EB%B0%8F-%EC%A0%81%EC%9A%A9)
 
@@ -167,7 +173,7 @@
 
 * * *  
 
-### 6. 프로젝트 결과  
+## 6. 프로젝트 결과  
 
 - [결과 1 - 성능개선](https://github.com/challenge-first/About/wiki/Project-%7C-Result-2-%E2%80%90--Improvements)
 
