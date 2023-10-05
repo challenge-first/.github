@@ -165,13 +165,12 @@
   - ScaleUp, ScaleOut
   - 대기열 기능
 
+
+    
+### 프로젝트 설계  
 <br/>  
 
 </br>
-    
-### 프로젝트 설계  
-
-  
 
 - [프로젝트 계획 및 설계](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design)
    
