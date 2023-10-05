@@ -7,15 +7,13 @@
 
 [프로젝트 목표 및 설계](#2-프로젝트-목표-및-설계) 
 
-[페이지](#3-페이지)  
+[기술스택](#3-기술스택)  
 
-[기술스택](#4-기술스택)  
+[서비스 아키텍처 및 기술적 의사결정](#4-서비스-아키텍처-및-기술적-의사결정)  
 
-[서비스 아키텍처 및 기술적 의사결정](#5-서비스-아키텍처-및-기술적-의사결정)  
+[트러블슈팅](#5-트러블-슈팅)  
 
-[트러블슈팅](#6-트러블-슈팅)  
-
-[프로젝트 결과](#7-프로젝트-결과)  
+[프로젝트 결과](#6-프로젝트-결과)  
 
 [팀원 및 역할](#7-팀원-및-역할)
 
@@ -79,57 +77,16 @@
   
 - [API 명세서](https://github.com/challenge-first/About/wiki#3-api) 
 
-* * *  
-
-## 3. 페이지 
-
-
-
-<details>
-<summary> 회원가입, 로그인 페이지 </summary>  
-  <img src='./src/main/resources/images/GGsignuplogin.png' width="70%">  
-  
-  - 회원가입, 로그인 
-</details>
-
-<details>
-<summary> 메인페이지 </summary>  
-  <img src='./src/main/resources/images/GGmain.png' width="70%">  
-  
-  - 게시물 조회, 검색    
-</details>
-
-<details>
-<summary> 검색페이지 </summary>  
-   <img src='./src/main/resources/images/GGsearchtitle.png' width="70%">  
-  
-  - 제목 검색  
-
-   <img src='./src/main/resources/images/GGsearchwriter.png' width="70%">  
-   
-   - 작성자 검색    
-</details>  
-
-<details>
-<summary> 상세페이지 </summary>    
-  <img src='./src/main/resources/images/GGcreatepost.png' width="70%">  
-  
-  - 게시글 작성,수정,삭제  
-
-  <img src='./src/main/resources/images/GGcreatecomment.png' width="70%">  
-  
-  - 댓글 작성,수정,삭제  
-</details>   
 
 * * *  
   
-### 4. 기술스택
+### 3. 기술스택
 
 <img src="https://img.shields.io/badge/MSA-232F3E?style=for-the-badge"/> <img src="https://img.shields.io/badge/OpenJDK-232F3E?style=for-the-badge&logo=OpenJDK&logoColor=white"/> <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"> <img src="https://img.shields.io/badge/Springboot-6DB33F?style=for-the-badge&logo=Springboot&logoColor=white"> <img src="https://img.shields.io/badge/SpringAOP-6DB33F?style=for-the-badge"> <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/Apache_Kafka-02303A?style=for-the-badge"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/amazonec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/amazonrds-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/Zipkin-E69138?style=for-the-badge"/> <img src="https://img.shields.io/badge/Resilience4j-4479A1?style=for-the-badge"/> <img src="https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/JWT-232F3E?style=for-the-badge"> <img src="https://img.shields.io/badge/Jmeter-999999?style=for-the-badge"> <img src="https://img.shields.io/badge/nGrinder-999999?style=for-the-badge"> <img src="https://img.shields.io/badge/Querydsl-4479A1?style=for-the-badge"/> <img src="https://img.shields.io/badge/Prometheus-E69138?style=for-the-badge"/> <img src="https://img.shields.io/badge/Grafana-E69138?style=for-the-badge"/> <img src="https://img.shields.io/badge/GithubAction-527FFF?style=for-the-badge"/> <img src="https://img.shields.io/badge/Docker-527FFF?style=for-the-badge"/>
 
 * * *  
 
-## 5. 서비스 아키텍처 및 기술적 의사결정  
+## 4. 서비스 아키텍처 및 기술적 의사결정  
 
 ![image](https://github.com/challenge-first/About/assets/134407121/f32017ad-edd1-44d5-a05a-518aede2c933) 
 
@@ -138,7 +95,7 @@
 
 * * *  
 
-## 6. 트러블 슈팅
+## 5. 트러블 슈팅
 
 - [MSA 설계 및 적용](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#1-msa-%EC%84%A4%EA%B3%84-%EB%B0%8F-%EC%A0%81%EC%9A%A9)
 
@@ -153,7 +110,7 @@
 
 * * *  
 
-## 7. 프로젝트 결과  
+## 6. 프로젝트 결과  
 
 - [선착순 이벤트, 데이터 검색 및 조회 성능개선](https://github.com/challenge-first/About/wiki/Project-%7C-Result-2-%E2%80%90--Improvements)
 
@@ -162,7 +119,7 @@
 
 * * *  
 
-## 8. 팀원 및 역할
+## 7. 팀원 및 역할
   
 
 | 이름 | 담당 역할 | 
