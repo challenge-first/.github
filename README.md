@@ -8,7 +8,7 @@
 
 [프로젝트 소개](#2-프로젝트-소개)  
 
-[프로젝트 계획 및 설계](#3-프로젝트-계획-및-설계) 
+[프로젝트 목표 및 설계](#3-프로젝트-목표-및-설계) 
 
 [기술스택](#4-기술스택)  
 
@@ -137,8 +137,37 @@
 
 * * *  
 
-## 3. 프로젝트 계획 및 설계
-  
+## 3. 프로젝트 목표 및 설계  
+
+### - 프로젝트 목표  
+
+- MSA 전환
+  - DDD(도메인 주도 설계)를 바탕으로 분리된 서비스가 유기적으로 소통하는 서비스
+  - 이벤트 스토밍 전략으로 바운딩 컨텍스트를 나누는 설계 전략
+  - 다른 도메인에 이벤트로 데이터를 전송하는 이벤트 기반 아키텍처
+  - OpenFeign, Kafka를 이용한 동기, 비동기 통신
+
+- 인프라, 플랫폼, 애플리케이션 차원에서 필요한 기술 도입
+  - 헥사고날 아키텍처를 채택하여 변경에 유연한 아키텍처 전환
+  - Zipkin, Micrometer를 활용한 분산 추적 시스템
+  - Prometheus, Grafana를 이용한 모니터링 시스템
+  - Resilience4J의 CircuitBreaker 패턴을 통해 장애 내성이 있는 서비스 구축
+  - Github Action, Docker를 활용한 CI/CD 환경 구축
+
+- 약 1000만건의 대량의 제품 데이터에서 특정 검색 조건으로 빠르게 해당 제품 데이터에 접근
+  - 카테고리로 접근할 수 있는 상품 조회
+  - 특정 단어가 포함된 검색어를 이용한 유연한 상품 조회
+
+- 각 도메인에서 발생할 수 있는 동시성 제어
+  - 비관적 락
+  - Redisson 분산 락
+
+- 대용량 트래픽에도 견딜 수 있는 내구성 있는 서버
+  - ScaleUp, ScaleOut
+  - 대기열 기능
+    
+### - 프로젝트 설계
+
 - [프로젝트 계획 및 설계](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design)
   
 - [API 명세서](https://github.com/challenge-first/About/wiki#3-api) 
@@ -162,28 +191,28 @@
 
 ## 6. 트러블 슈팅
 
-- [트러블 슈팅 1 - MSA 설계 및 적용](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#1-msa-%EC%84%A4%EA%B3%84-%EB%B0%8F-%EC%A0%81%EC%9A%A9)
+- [MSA 설계 및 적용](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#1-msa-%EC%84%A4%EA%B3%84-%EB%B0%8F-%EC%A0%81%EC%9A%A9)
 
  
-- [트러블 슈팅 2 - 선착순 이벤트 구현](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#2-%EC%84%A0%EC%B0%A9%EC%88%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EA%B5%AC%ED%98%84)
+- [선착순 이벤트 구현](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#2-%EC%84%A0%EC%B0%A9%EC%88%9C-%EC%9D%B4%EB%B2%A4%ED%8A%B8-%EA%B5%AC%ED%98%84)
 
   
-- [트러블 슈팅 3 - 데이터 검색 및 조회](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#3-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B2%80%EC%83%89--%EC%A1%B0%ED%9A%8C) 
+- [데이터 검색 및 조회](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#3-%EB%8D%B0%EC%9D%B4%ED%84%B0-%EA%B2%80%EC%83%89--%EC%A1%B0%ED%9A%8C) 
 
   
-- [트러블 슈팅 4 - 동시성 제어](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#4-%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%A0%9C%EC%96%B4) 
+- [동시성 제어](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#4-%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%A0%9C%EC%96%B4) 
 
   
-- [트러블 슈팅 5 - 동기/비동](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#5-%EB%8F%99%EA%B8%B0%EB%B9%84%EB%8F%99%EA%B8%B0) 
+- [동기/비동](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#5-%EB%8F%99%EA%B8%B0%EB%B9%84%EB%8F%99%EA%B8%B0) 
 
 * * *  
 
 ## 7. 프로젝트 결과  
 
-- [결과 1 - 성능개선](https://github.com/challenge-first/About/wiki/Project-%7C-Result-2-%E2%80%90--Improvements)
+- [선착순 이벤트, 데이터 검색 및 조회 성능개선](https://github.com/challenge-first/About/wiki/Project-%7C-Result-2-%E2%80%90--Improvements)
 
    
-- [결과 2 - 아키텍처](https://github.com/challenge-first/About/wiki/Project-%7C-Result-1-%E2%80%90-Architecture)
+- [아키텍처 변화](https://github.com/challenge-first/About/wiki/Project-%7C-Result-1-%E2%80%90-Architecture)
 
 
 
