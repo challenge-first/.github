@@ -46,7 +46,9 @@
 
 
 <details>
-<summary> 담당 역할 </summary>
+<summary> 담당 역할 </summary>  
+
+  
 
 | 이름 | 담당 역할 |
 | --- | --- |
