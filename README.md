@@ -151,9 +151,6 @@
   
 - [동시성 제어](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#4-%EB%8F%99%EC%8B%9C%EC%84%B1-%EC%A0%9C%EC%96%B4) 
 
-  
-- [동기/비동](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#5-%EB%8F%99%EA%B8%B0%EB%B9%84%EB%8F%99%EA%B8%B0) 
-
 * * *  
 
 ## 7. 프로젝트 결과  
@@ -208,7 +205,7 @@
 | 유시환 |  상품 데이터 수집
 |             |  모놀리스에서 로깅, Dto, 경매 입찰 기능 구현
 |             |  모놀리스에서 Junit, Mockito를 활용한 Test 코드 작성
-|             |  전반적인 MSA 및 도메인 주도 설계 수립립
+|             |  전반적인 MSA 및 도메인 주도 설계 수립
 |             |  Jmeter를 활용한 동시성 테스트
 |             |  경매 도메인 조회/입찰/낙찰 기능 구현
 |             |  스프링 AOP를 활용한 로깅 구현
