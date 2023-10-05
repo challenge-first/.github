@@ -164,8 +164,12 @@
 - 대용량 트래픽에도 견딜 수 있는 내구성 있는 서버
   - ScaleUp, ScaleOut
   - 대기열 기능
+
+<br/>  
+
+</br>
     
-### - 프로젝트 설계
+### 프로젝트 설계
 
 - [프로젝트 계획 및 설계](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design)
   
