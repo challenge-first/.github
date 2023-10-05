@@ -21,13 +21,15 @@
 
 [프로젝트 소개](#2-프로젝트-소개)  
 
-[기술스택](#3-기술스택)  
+[프로젝트 계획 및 설계](#3-프로젝트-계획-및-설계) 
 
-[서비스 아키텍처 및 기술적 의사결정](#4-서비스-아키텍처-및-기술적-의사결정정)  
+[기술스택](#4-기술스택)  
 
-[트러블슈팅](#5-트러블-슈팅)  
+[서비스 아키텍처 및 기술적 의사결정](#5-서비스-아키텍처-및-기술적-의사결정정)  
 
-[프로젝트 결과](#6-프로젝트-결과)  
+[트러블슈팅](#6-트러블-슈팅)  
+
+[프로젝트 결과](#7-프로젝트-결과)  
 
 * * *  
 
@@ -132,21 +134,21 @@
 
 * * *  
 
-## 3. 프로젝트 소개
+## 3. 프로젝트 계획 및 설계
   
-- [프로젝트 계획 수립 및 설계](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design)
+- [프로젝트 계획 및 설계](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design)
   
 - [API 명세서](https://github.com/challenge-first/About/wiki#3-api) 
 
 * * *  
   
-### 3. 기술스택
+### 4. 기술스택
 
 <img src="https://img.shields.io/badge/MSA-232F3E?style=for-the-badge"/> <img src="https://img.shields.io/badge/OpenJDK-232F3E?style=for-the-badge&logo=OpenJDK&logoColor=white"/> <img src="https://img.shields.io/badge/MSA-232F3E?style=for-the-badge"/> <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"> <img src="https://img.shields.io/badge/Springboot-6DB33F?style=for-the-badge&logo=Springboot&logoColor=white"> <img src="https://img.shields.io/badge/SpringAOP-6DB33F?style=for-the-badge"> <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/Apache_Kafka-02303A?style=for-the-badge"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/amazonec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/amazonrds-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/Zipkin-4479A1?style=for-the-badge"/> <img src="https://img.shields.io/badge/Resilience4j-4479A1?style=for-the-badge"/> <img src="https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/JWT-999999?style=for-the-badge"> <img src="https://img.shields.io/badge/Jmeter-999999?style=for-the-badge"> <img src="https://img.shields.io/badge/nGrinder-999999?style=for-the-badge"> <img src="https://img.shields.io/badge/nGrinder-999999?style=for-the-badge"> <img src="https://img.shields.io/badge/Querydsl-999999?style=for-the-badge"/> <img src="https://img.shields.io/badge/Prometheus-999999?style=for-the-badge"/> <img src="https://img.shields.io/badge/Grafana-999999?style=for-the-badge"/> <img src="https://img.shields.io/badge/GithubAction-999999?style=for-the-badge"/> <img src="https://img.shields.io/badge/Docker-999999?style=for-the-badge"/>
 
 * * *  
 
-## 4. 서비스 아키텍처 및 기술적 의사결정  
+## 5. 서비스 아키텍처 및 기술적 의사결정  
 
 ![image](https://github.com/challenge-first/About/assets/134407121/f32017ad-edd1-44d5-a05a-518aede2c933) 
 
@@ -155,7 +157,7 @@
 
 * * *  
 
-## 5. 트러블 슈팅
+## 6. 트러블 슈팅
 
 - [트러블 슈팅 1 - MSA 설계 및 적용](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#1-msa-%EC%84%A4%EA%B3%84-%EB%B0%8F-%EC%A0%81%EC%9A%A9)
 
@@ -173,7 +175,7 @@
 
 * * *  
 
-## 6. 프로젝트 결과  
+## 7. 프로젝트 결과  
 
 - [결과 1 - 성능개선](https://github.com/challenge-first/About/wiki/Project-%7C-Result-2-%E2%80%90--Improvements)
 
