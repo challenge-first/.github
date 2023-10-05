@@ -72,8 +72,15 @@
 ### 프로젝트 설계  
 
   
-- [프로젝트 계획 및 설계](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design)
-   
+- [브레인스토밍](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design#1-%EA%B8%B0%ED%9A%8D)
+
+- [유저플로우](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design#3-%EC%9C%A0%EC%A0%80%ED%94%8C%EB%A1%9C%EC%9A%B0)
+
+- [요구사항 정립 및 와이어프레임](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design#4-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD-%EC%A0%95%EB%A6%BD)
+
+- [도메인 주도 설계](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design#5-%EB%8F%84%EB%A9%94%EC%9D%B8-%EC%A3%BC%EB%8F%84-%EC%84%A4%EA%B3%84)
+
+- [ERD](https://github.com/challenge-first/About/wiki/Project-%7C-Plan-&-Design#6-erd) 
   
 - [API 명세서](https://github.com/challenge-first/About/wiki#3-api) 
 
@@ -116,6 +123,33 @@
 
    
 - [아키텍처 전환](https://github.com/challenge-first/About/wiki/Project-%7C-Result-1-%E2%80%90-Architecture)
+
+  
+- [Gateway Repository](https://github.com/challenge-first/gateway)
+
+
+- [Eureka Repository](https://github.com/challenge-first/eureka)
+
+
+- [Member Repository](https://github.com/challenge-first/member-server)
+  
+  
+- [Product Repository](https://github.com/challenge-first/product-server)
+
+
+- [Auction Repository](https://github.com/challenge-first/auction-server)
+
+
+- [Order Repository](https://github.com/challenge-first/order-server)
+
+  
+- [Event Scheduler Repository](https://github.com/challenge-first/event-scheduler-server)   
+  
+
+- [Event Waiting Repository](https://github.com/challenge-first/event-waiting-server)  
+  
+
+- [Event Coupon Repository](https://github.com/challenge-first/event-coupon-server) 
 
 * * *  
 
