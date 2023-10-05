@@ -19,7 +19,7 @@
 
 * * *  
 
-## 1. 프로젝트 개요
+# 1. 프로젝트 개요
 
 ![MaybeZone](https://github.com/challenge-first/About/assets/134407121/2a4a7e82-c399-4b9c-83cc-107eb5a57969)   
 
@@ -37,7 +37,7 @@
 
 * * *  
 
-## 2. 프로젝트 목표 및 설계
+# 2. 프로젝트 목표 및 설계
 
 
 ### 프로젝트 목표  
@@ -80,13 +80,13 @@
 
 * * *  
   
-### 3. 기술스택
+# 3. 기술스택
 
 <img src="https://img.shields.io/badge/MSA-232F3E?style=for-the-badge"/> <img src="https://img.shields.io/badge/OpenJDK-232F3E?style=for-the-badge&logo=OpenJDK&logoColor=white"/> <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=Spring&logoColor=white"> <img src="https://img.shields.io/badge/Springboot-6DB33F?style=for-the-badge&logo=Springboot&logoColor=white"> <img src="https://img.shields.io/badge/SpringAOP-6DB33F?style=for-the-badge"> <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white"> <img src="https://img.shields.io/badge/Apache_Kafka-02303A?style=for-the-badge"> <img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white"> <img src="https://img.shields.io/badge/amazonec2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white"/> <img src="https://img.shields.io/badge/amazonrds-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white"/> <img src="https://img.shields.io/badge/Zipkin-E69138?style=for-the-badge"/> <img src="https://img.shields.io/badge/Resilience4j-4479A1?style=for-the-badge"/> <img src="https://img.shields.io/badge/redis-DC382D?style=for-the-badge&logo=redis&logoColor=white"/> <img src="https://img.shields.io/badge/JWT-232F3E?style=for-the-badge"> <img src="https://img.shields.io/badge/Jmeter-999999?style=for-the-badge"> <img src="https://img.shields.io/badge/nGrinder-999999?style=for-the-badge"> <img src="https://img.shields.io/badge/Querydsl-4479A1?style=for-the-badge"/> <img src="https://img.shields.io/badge/Prometheus-E69138?style=for-the-badge"/> <img src="https://img.shields.io/badge/Grafana-E69138?style=for-the-badge"/> <img src="https://img.shields.io/badge/GithubAction-527FFF?style=for-the-badge"/> <img src="https://img.shields.io/badge/Docker-527FFF?style=for-the-badge"/>
 
 * * *  
 
-## 4. 서비스 아키텍처 및 기술적 의사결정  
+# 4. 서비스 아키텍처 및 기술적 의사결정  
 
 ![image](https://github.com/challenge-first/About/assets/134407121/f32017ad-edd1-44d5-a05a-518aede2c933) 
 
@@ -95,7 +95,7 @@
 
 * * *  
 
-## 5. 트러블 슈팅
+# 5. 트러블 슈팅
 
 - [MSA 설계 및 적용](https://github.com/challenge-first/About/wiki/Project-%7C-Troubleshooting#1-msa-%EC%84%A4%EA%B3%84-%EB%B0%8F-%EC%A0%81%EC%9A%A9)
 
@@ -110,7 +110,7 @@
 
 * * *  
 
-## 6. 프로젝트 결과  
+# 6. 프로젝트 결과  
 
 - [선착순 이벤트, 데이터 검색 및 조회 성능개선](https://github.com/challenge-first/About/wiki/Project-%7C-Result-2-%E2%80%90--Improvements)
 
@@ -119,7 +119,7 @@
 
 * * *  
 
-## 7. 팀원 및 역할
+# 7. 팀원 및 역할
   
 
 | 이름 | 담당 역할 | 
